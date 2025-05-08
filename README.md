@@ -62,3 +62,19 @@ We emphasize that:
 ## How to Use This Repository
 
 ### 📁 Folder Structure
+
+
+## 🛠️ Environment & Installation
+
+This project requires a working Python environment.  
+We recommend using [Anaconda](https://www.anaconda.com/) to manage environments.
+
+### 💻 Recommended Environment Setup
+
+Create a conda environment with compatible versions:
+
+```bash
+conda create -n media-nlp python=3.10
+conda activate media-nlp
+conda install pandas numpy=1.24 spacy wordcloud matplotlib seaborn scikit-learn
+python -m spacy download de_core_news_sm
