@@ -4,7 +4,7 @@
 
 This exploratory project investigates whether media coverage in Switzerland reflects public sentiment ahead of direct democratic referenda. We analyze whether the **tone, vocabulary, and topical framing** of news articles can serve as a proxy for political preferences, **without claiming causal influence**.
 
-We collected 113 articles covering 20 national referenda (2011–2024) from **SRF**, **20 Minuten**, and **NZZ**, each published prior to the vote. Using a mix of NLP techniques and pre-trained language models, we examine whether patterns in text data align with final vote outcomes.
+We collected 113 articles covering 20 national referenda (2011–2024) from **SRF**, **20 Minuten**, and **NZZ**, each published prior to the vote. Using a mix of NLP/ML techniques and pre-trained language models, we examine whether patterns in text data align with final vote outcomes.
 
 The project is structured into three main steps:
 
