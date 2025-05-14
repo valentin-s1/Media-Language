@@ -49,9 +49,7 @@ conda create -n media-nlp python=3.10
 conda activate media-nlp
 ```
 3. Install required packages
-```bash
-pip install 
-```
+Start by running Jupyter Notebook (install required packages in beginning of Notebook)
 
 ## Repository Content
 - [`Jupyter_Code.ipynb`](./Jupyter_Code.ipynb)
