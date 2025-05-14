@@ -54,27 +54,27 @@ pip install
 ```
 
 ## Repository Content
-- `Jupyter_COde.ipynb`  
+- [`Jupyter_Code.ipynb`](./Jupyter_Code.ipynb)
   → Main Jupyter Notebook containing the full analysis pipeline.
 
-- `Data_ML.xlsx`  
+- [`Data_ML.xlsx`](./Data_ML.xlsx)
   → Original dataset including article URLs.
 
-- `Data_ML_filled.xlsx`  
+- [`Data_ML_filled.xlsx`](./Data_ML_filled.xlsx)
   → Scraped data without cleaning (raw text data).
 
-- `Data_ML_cleaned.xlsx`  
+- [`Data_ML_cleaned.xlsx`](./Data_ML_cleaned.xlsx)
   → Preprocessed and cleaned text data (after NLP pipeline).
 
-- `stance_sample.xlsx`  
+- [`stance_sample.xlsx`](./stance_sample.xlsx)
   → Randomly selected sample used for stance detection.
 
-- `stance_sample_labeled.xlsx`  
+- [`stance_sample_labeled.xlsx`](./stance_sample_labeled.xlsx)
   → Manually labeled version of the stance detection sample.
 
-- `.gitignore`  
+- [`.gitignore`](./.gitignore)
   → Specifies files/folders (e.g., large stance data) that should be excluded from version control.
 
-- `Presentation/Media-Language.pptx`  
+- [`Presentation/Media-Language.pptx`](./Presentation/Media-Language.pptx)
   → PowerPoint presentation summarizing the project and results.
 
