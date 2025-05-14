@@ -31,7 +31,7 @@ While results suggest **media framing is largely neutral**, interpretation must 
 
 This repository contains the full analysis for the Media-Language project. The main workflow is documented in the Jupyter Notebook:
 
-- `/Jupyter_COde.ipynb`
+- [`Jupyter_Code.ipynb`](./Jupyter_Code.ipynb)
 
 ---
 
