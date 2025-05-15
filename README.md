@@ -31,7 +31,7 @@ While results suggest **media framing is largely neutral**, interpretation must 
 
 This repository contains the full analysis for the Media-Language project. The main workflow is documented in the Jupyter Notebook:
 
-- [`Jupyter_Code.ipynb`](./Jupyter_Code.ipynb)
+- [`Jupyter_Code.ipynb`](./Code/Jupyter_Code.ipynb)
 
 ---
 
@@ -52,22 +52,22 @@ conda activate media-nlp
 Start by running Jupyter Notebook (install required packages in beginning of Notebook)
 
 ## Repository Content
-- [`Jupyter_Code.ipynb`](./Jupyter_Code.ipynb)
+- [`Jupyter_Code.ipynb`](./Code/Jupyter_Code.ipynb)
   → Main Jupyter Notebook containing the full analysis pipeline.
 
-- [`Data_ML.xlsx`](./Data_ML.xlsx)
+- [`Data_ML.xlsx`](./Data/Data_ML.xlsx)
   → Original dataset including article URLs.
 
-- [`Data_ML_filled.xlsx`](./Data_ML_filled.xlsx)
+- [`Data_ML_filled.xlsx`](./Data/Data_ML_filled.xlsx)
   → Scraped data without cleaning (raw text data).
 
-- [`Data_ML_cleaned.xlsx`](./Data_ML_cleaned.xlsx)
+- [`Data_ML_cleaned.xlsx`](./Data/Data_ML_cleaned.xlsx)
   → Preprocessed and cleaned text data (after NLP pipeline).
 
-- [`stance_sample.xlsx`](./stance_sample.xlsx)
+- [`stance_sample.xlsx`](./Data/stance_sample.xlsx)
   → Randomly selected sample used for stance detection.
 
-- [`stance_sample_labeled.xlsx`](./stance_sample_labeled.xlsx)
+- [`stance_sample_labeled.xlsx`](./Data/stance_sample_labeled.xlsx)
   → Manually labeled version of the stance detection sample.
 
 - [`.gitignore`](./.gitignore)
