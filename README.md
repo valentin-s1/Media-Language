@@ -21,7 +21,7 @@ The project is structured into three main steps:
 ### 3. Modelling & Interpretation
 - **Sentiment analysis** shows most media texts are neutral (~85%), limiting predictive power
 - **Stance detection** (manual labeling + classifier) was hindered by class imbalance and limited sample size
-- **Outcome Prediction** (TF-IDF + logistic regression) test whether textual patterns predict vote outcomes; slightly model improvement despite limited sample size and class imbalance
+- **Outcome Prediction** (TF-IDF + logistic regression) test whether textual patterns predict vote outcomes; The logistic model achieved a modest accuracy gain over the majority‐class baseline but still showed very low recall on the minority (accepted) class—an outcome driven by the small sample and class imbalance.
 
 While results suggest **media framing is largely neutral**, interpretation must remain cautious due to sample size, model constraints, and pre-trained model transferability.
 
