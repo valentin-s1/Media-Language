@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This exploratory project investigates whether media coverage in Switzerland reflects public sentiment ahead of direct democratic referenda. We analyze whether the **tone, vocabulary, and topical framing** of news articles can serve as a proxy for political preferences, **without claiming causal influence**.
+This exploratory project investigates whether media coverage in Switzerland reflects public sentiment ahead of direct democratic referenda (i.e. Framing Theory vs. Mirror Theory). We analyze whether the **tone, vocabulary, and topical framing** of news articles can serve as a proxy for political preferences, **without claiming causal influence**.
 
 We collected 113 articles covering 20 national referenda (2011–2024) from **SRF**, **20 Minuten**, and **NZZ**, each published prior to the vote. Using a mix of NLP/ML techniques and pre-trained language models, we examine whether patterns in text data align with final vote outcomes.
 
@@ -21,7 +21,7 @@ The project is structured into three main steps:
 ### 3. Modelling & Interpretation
 - **Sentiment analysis** shows most media texts are neutral (~85%), limiting predictive power
 - **Stance detection** (manual labeling + classifier) was hindered by class imbalance and limited sample size
-- **Logistic regression** on textual features failed to predict outcomes reliably, suggesting either true neutrality of coverage or methodological limitations
+- **Outcome Prediction** (TF-IDF + logistic regression) test whether textual patterns predict vote outcomes; slightly model improvement despite limited sample size and class imbalance
 
 While results suggest **media framing is largely neutral**, interpretation must remain cautious due to sample size, model constraints, and pre-trained model transferability.
 
